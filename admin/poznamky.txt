@@ -1,7 +1,0 @@
-git init -> načíta
-git add . -> pridá všetly súbory
-git commit -m "nazov" -> vytvorí novú úpravu do TIMELINE
-git status  -> ukaže úpravy
-git log
-git config --list 
-git config --user.name=nazov -> zmení meno užívateľa
