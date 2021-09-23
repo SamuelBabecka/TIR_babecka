@@ -29,7 +29,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             exit();
             ?>
             <div class="alert alert-success alert-dismissible fade show" role="alert">
- <strong> Výborne si prihlásený </strong> <?php echo "" ?>
+ <strong> Výborne... si prihlásený </strong> <?php echo "" ?>
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
@@ -93,7 +93,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                     </div>
                                     <input type="password" id="password" class="form-control" name="password" required pattern="(?=.*\d).{5,}" >
                                     <div class="invalid-feedback">
-                                      Prosím zadaj heslo (minimálne 5 znakov.)
+                                      Prosím zadaj heslo (minimálne 5 znakov)
                                     </div>
                                 </div>
 
@@ -103,7 +103,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                 <div class="col-md-6 ">
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="remember"> Pamätať prihlásenie
+                                            <input type="checkbox" name="remember"> Zapamätať prihlásenie
                                         </label>
                                     </div>
                                 </div>
