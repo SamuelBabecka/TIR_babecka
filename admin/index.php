@@ -75,7 +75,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                     <input type="text" id="email_address" class="form-control" name="email-address" required pattern="\S.{2,9}.[^()/><\][,;*_|]+">
 
                                     <div class="invalid-feedback">
-                                      Prosím zadaj meno (5-20 znakov)
+                                      Prosím zadaj meno (5-20 znakov).
                                     </div>
                                 </div>
 
