@@ -59,6 +59,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="card border-5 border-dark">
+                    
                     <div class="card-header text-center" ><h4>Prihlásenie</h4></div>
                     <div class="card-body">
                         <form action="index.php" method="POST">
